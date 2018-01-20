@@ -21,7 +21,7 @@ def run_bot(r):
 	for comment in r.subreddit('testforlanguagebot').comments(limit=25):
 		if comment.body in foul_lang:
 			comment.reply('stop using bad language')
-            # If just want to have fun with the users and dont wt want to warn the use this reply 
+            # If you just want to have fun with the users and don't want to warn the use this reply 
             # comment.reply("""Why are you using this bad language?Don't use foul or abusive language. Let everything you say be good and helpful, (づ｡◕‿‿◕｡)づ  so that your words will be an encouragement to those who hear them.
              #cheers ヽ(◉◡◔)ﾉ """) 
 
